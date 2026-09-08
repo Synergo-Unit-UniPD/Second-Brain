@@ -6,12 +6,12 @@
 
 Il Preventivo a Finire viene aggiornato al termine di ogni sprint a valle del ciclo di controllo del Piano di Progetto. L'aggiornamento tiene conto del consuntivo di periodo, della Sprint Retrospective\textsubscript{G}, delle misure correttive individuate, dell'aggiornamento dei rischi e della revisione della pianificazione futura.
 
-Il suo scopo è fornire una stima aggiornata del costo complessivo del progetto, tenendo conto del costo già sostenuto, delle risorse residue e del costo stimato per completare le attività rimanenti.
+Con la conclusione del progetto allo Sprint 21 (Sezione~\ref{sec:conclusione}), a seguito della validazione formale positiva dell'MVP da parte della proponente (\link{https://synergo-unit-unipd.github.io/Second-Brain/docs/PB/doc_gestionali/verb_esterni/verb_est_2026_09_01/verb_est_2026_09_01_firmato.pdf}{Verbale Esterno N. 10, 2026-09-01}), questa sezione non fornisce più una stima delle risorse necessarie a completare attività future, non essendo pianificati ulteriori sprint di sviluppo, ma il \textbf{consuntivo finale} del progetto: il costo complessivo effettivamente sostenuto a confronto con il budget preventivato in fase di candidatura, e il trattamento delle ore e del costo non consumati.
 
 \subsection{Analisi scostamenti}
 
 Il monitoraggio delle ore residue per ruolo, aggiornato al termine dello
-Sprint 20, evidenzia una distribuzione non uniforme degli scostamenti rispetto
+Sprint 21 evidenzia una distribuzione non uniforme degli scostamenti rispetto
 alla preventivazione iniziale:
 
 \begin{table}[H]
@@ -19,50 +19,46 @@ alla preventivazione iniziale:
 \renewcommand{\arraystretch}{1.3}
 \begin{tabular}{l r r}
 \toprule
-\textbf{Ruolo} & \textbf{Ore residue} & \textbf{Costo residuo} \\
+\textbf{Ruolo} & \textbf{Ore non consumate} & \textbf{Risparmio} \\
 \midrule
-Responsabile   & 20{,}75 & 622{,}50~\euro \\
-Amministratore & \color{red}{-46{,}67} & \color{red}{-933{,}33~\euro} \\
-Analista       & 54{,}67 & 1.366{,}67~\euro \\
-Progettista    & 88{,}67 & 2.216{,}67~\euro \\
+Responsabile   & 18{,}58 & 557{,}40~\euro \\
+Amministratore & \color{red}{-55{,}00} & \color{red}{-1.100{,}00~\euro} \\
+Analista       & 54{,}67 & 1.366{,}75~\euro \\
+Progettista    & 88{,}67 & 2.216{,}75~\euro \\
 Programmatore  & 39{,}00 & 585{,}00~\euro \\
-Verificatore   & 47{,}50 & 712{,}50~\euro \\
+Verificatore   & 45{,}00 & 675{,}00~\euro \\
 \midrule
-\textbf{Totale} & \textbf{203{,}92} & \textbf{4.570{,}00~\euro} \\
+\textbf{Totale} & \textbf{190{,}92} & \textbf{4.300{,}90~\euro} \\
 \bottomrule
 \end{tabular}
-\caption{Ore e costo residuo per ruolo dopo lo Sprint 20}
+\caption{Ore e budget non consumati per ruolo a fine progetto (dopo lo Sprint 21)}
 \end{table}
 
-Il ruolo di Amministratore\textsubscript{G} resta l'unico a presentare un
-residuo negativo (-46,67 ore, pari a -933,33~\euro), in lieve peggioramento
-rispetto alle -43,83 ore rilevate a fine Sprint 19. Questo scostamento,
+Il ruolo di Amministratore\textsubscript{G} resta l'unico a chiudere il progetto con un
+disavanzo di ore (-55,00 ore, pari a -1.100,00~\euro), in peggioramento
+rispetto alle -46,67 ore rilevate a fine Sprint 20, per effetto del
+consuntivo dello Sprint 21 stesso. Questo scostamento,
 già rilevato in fase RTB\textsubscript{G} (Sez. RR/RO6 dell'Analisi dei
-Rischi), resta di origine prevalentemente RTB: nel periodo di implementazione
-dell'MVP (Sprint 12 -- Sprint 20), la somma dei $\Delta$~ore di
-Amministratore sui singoli sprint è pari a -0,18 ore, sostanzialmente
-invariata rispetto al -0,01 ore rilevato a fine Sprint 19. Il lieve
-peggioramento è dovuto al $\Delta$ di -0,17 ore registrato dall'Amministratore
-nello Sprint 20 stesso, imputabile al carico documentale gestionale (PdP,
-PdQ, Norme di Progetto) tipico della fase pre-consegna PB.
+Rischi), resta di origine prevalentemente RTB e non è stato riassorbito
+durante la PB; come discusso in Sezione~\ref{sec:scostamento-economico}, il
+suo impatto economico è comunque ampiamente compensato dal risparmio
+accumulato sugli altri ruoli e non ha mai messo a rischio il rispetto del
+budget complessivo.
 
-Nello stesso periodo (Sprint 12 -- Sprint 20) il ruolo di Progettista
-registra un $\Delta$ cumulato di +1,50 ore (in aumento rispetto a +1,00 ore
-a fine Sprint 19), per via del $\Delta$ di +0,50 ore rilevato nello Sprint 20
-sul ruolo di Progettista, riconducibile all'aggiornamento della specifica
-tecnica e alla revisione dell'AdR. Il ruolo di Responsabile passa da un
-$\Delta$ cumulato nullo a +0,25 ore, per lo stesso motivo riscontrato nello
-Sprint 20. I ruoli di Programmatore e Verificatore restano invariati
-rispettivamente a +1,00 e +0,16 ore, così come il ruolo di Analista, non
-assegnato nello Sprint 20, che resta a 0,00 ore.
+Il ruolo di Progettista chiude il progetto con il maggiore avanzo di ore
+(88,67 ore, 2.216,75~\euro), seguito da Analista (54,67 ore, 1.366,75~\euro)
+e Programmatore (39,00 ore, 585,00~\euro). Responsabile e Verificatore
+chiudono rispettivamente a 18,58 ore (557,40~\euro) e 45,00 ore
+(675,00~\euro).
 
-Il residuo complessivo (203,92 ore, pari a 4.570,00~\euro) resta ampiamente
-positivo: il deficit di Amministratore viene compensato dai residui positivi
-degli altri ruoli, in particolare Progettista e Analista, senza che ciò
-comporti un superamento del budget economico complessivo preventivato in fase
-di candidatura.
+Il saldo complessivo a fine progetto (190,92 ore, pari a 4.300,90~\euro)
+resta ampiamente positivo: il disavanzo di Amministratore viene compensato
+dagli avanzi degli altri ruoli, in particolare Progettista e Analista, e il
+progetto si chiude senza alcun superamento del budget economico complessivo
+preventivato in fase di candidatura.
 
 \subsection{Analisi dello scostamento economico}
+\label{sec:scostamento-economico}
 
 Il forte disallineamento tra lo scostamento in ore e lo scostamento in
 valore economico non è casuale, ma deriva da un errore di allocazione
@@ -71,13 +67,13 @@ di esecuzione durante la PB.
 
 I ruoli di Analista e Progettista, entrambi con tariffa oraria di 25~\euro/h,
 sono stati preventivati con un numero di ore superiore a quanto
-effettivamente necessario per le attività assegnate: a fine Sprint 20
-presentano un residuo positivo rispettivamente di 54,67 ore (1.366,67~\euro)
-e 88,67 ore (2.216,67~\euro), il residuo più consistente tra tutti i ruoli.
+effettivamente necessario per le attività assegnate: a fine progetto
+presentano un avanzo rispettivamente di 54,67 ore (1.366,75~\euro)
+e 88,67 ore (2.216,75~\euro), il più consistente tra tutti i ruoli.
 Il ruolo di Amministratore, con tariffa oraria inferiore (20~\euro/h), è
 stato invece preventivato con ore insufficienti rispetto al carico reale di
-gestione documentale e strumenti di progetto, risultando nell'unico residuo
-negativo (-46,67 ore, -933,33~\euro).
+gestione documentale e strumenti di progetto, risultando nell'unico disavanzo
+(-55,00 ore, -1.100,00~\euro).
 
 Poiché il costo economico di uno scostamento dipende dal prodotto tra ore e
 tariffa oraria, lo sforamento in ore dell'Amministratore pesa relativamente
@@ -93,47 +89,59 @@ Questa analisi conferma che il vincolo economico complessivo non è a
 rischio nonostante lo scostamento negativo su un singolo ruolo, e che la
 causa del disallineamento è da ricondursi a una calibrazione non ottimale
 delle ore per ruolo in fase di preventivazione iniziale, piuttosto che a un
-sovra- o sotto-impiego di risorse durante la PB.
+sovra- o sotto-impiego di risorse durante la PB. L'ulteriore peggioramento
+del deficit di Amministratore durante lo Sprint 21 (-8,33 ore aggiuntive)
+è stato assorbito senza compromettere il budget complessivo, grazie ai
+consistenti surplus degli altri ruoli.
 
 \subsection{Ripianificazione}
 
 A seguito degli scostamenti descritti, il gruppo ha ribilanciato nel corso
-della PB\textsubscript{G} la distribuzione delle ore residue tra ruoli,
+della PB\textsubscript{G} la distribuzione delle ore tra ruoli,
 mantenendo invariato il vincolo economico complessivo definito nel preventivo
 iniziale. In particolare:
 \begin{itemize}
     \item il debito di ore di Amministratore ereditato dalla RTB\textsubscript{G}
-    non è stato ricostituito durante la PB (delta netto sostanzialmente nullo
-    su Sprint 12 -- Sprint 20), grazie a una più attenta pianificazione delle
-    attività amministrative in sede di Sprint Planning\textsubscript{G};
+    non è stato ricostituito durante la PB. Il delta netto complessivo su Sprint 12 -- Sprint 21
+    rimane comunque contenuto (-0,18 ore), confermando l'efficacia della
+    pianificazione delle attività amministrative in sede di Sprint
+    Planning\textsubscript{G};
     \item le ore residue del ruolo di Analista, resesi disponibili dal
     consolidamento dell'Analisi dei Requisiti dopo la validazione RTB, sono
     state impiegate nella pianificazione delle attività rimanenti, con
     particolare attenzione alla verifica e all'aggiornamento della
     documentazione tecnica per la PB (Specifica Tecnica, Manuale Utente);
     \item i lievi sovraccarichi di Progettista e Responsabile registrati
-    nello Sprint 20, coerenti con l'intensità delle attività di
+    negli Sprint 20 e 21, coerenti con l'intensità delle attività di
     aggiornamento della documentazione tecnica in vista della consegna PB,
     sono stati assorbiti dal residuo positivo accumulato su questi ruoli
-    (rispettivamente 88,67 e 20,75 ore residue a fine Sprint 20) senza
+    (rispettivamente 88,67 e 18,58 ore residue a fine Sprint 21) senza
     necessità di ulteriori interventi correttivi.
 \end{itemize}
 
-Per gli sprint rimanenti fino alla Revisione PB (2026-09-10), il gruppo
-continua a monitorare le ore residue per ruolo al termine di ogni sprint,
-confermando il budget iniziale come vincolo massimo non superabile. Il
-residuo disponibile (203,92 ore, 4.570,00~\euro) è ritenuto sufficiente per
-completare le attività pianificate: redazione finale della documentazione
-di PB, eventuali correzioni emerse dalla Validazione MVP\textsubscript{G} con
-la proponente e preparazione della Revisione PB, senza necessità di
-un'ulteriore ripianificazione strutturale.
+Il progetto si conclude allo Sprint 21 (01/09/2026), con la validazione
+formale positiva dell'MVP da parte della proponente (Sezione~\ref{sec:conclusione}):
+non sono pertanto pianificati ulteriori sprint di sviluppo. 
 
-Eventuali ulteriori scostamenti verranno comunque valutati nelle successive
-retrospettive e recepiti nel Preventivo a Finire, aggiornando la stima delle
-risorse residue senza modificare il perimetro economico complessivo del progetto.
+Le 190,92 ore
+(4.300,90~\euro) risultanti dal bilancio finale per ruolo non
+rappresentano quindi risorse necessarie a completare attività future, ma il
+\textbf{risparmio complessivo} rispetto al budget preventivato in fase di
+candidatura: il progetto si chiude nettamente entro il vincolo economico
+massimo accettato, senza necessità di alcuna ripianificazione strutturale.
+
+Come discusso in Sezione~\ref{sec:scostamento-economico}, tale risparmio non
+deriva da una sotto-esecuzione delle attività pianificate, né da una
+riduzione di scope, ma da un preventivo iniziale non ottimamente calibrato:
+in particolare da una sovrastima sistematica delle ore necessarie ai ruoli
+di Analista e Progettista, solo in parte controbilanciata da una
+sottostima delle ore di Amministratore. Il gruppo ritiene comunque corretto
+mantenere tracciato lo scostamento per ruolo, anziché limitarsi a riportare
+il solo saldo economico complessivo, per documentare in modo trasparente
+l'origine dell'errore di preventivazione a beneficio di gruppi futuri.
 
 Le azioni correttive adottate durante la PB, confermate efficaci dai dati di
-Sprint 12 -- Sprint 20, sono:
+Sprint 12 -- Sprint 21, sono:
 \begin{itemize}
     \item maggiore attenzione alla pianificazione delle attività amministrative e
     di gestione durante lo Sprint Planning, evitando che vengano considerate
@@ -150,7 +158,7 @@ Amministratore durante la PB, pur senza riassorbire il debito ereditato dalla
 RTB, preservando in ogni caso il rispetto delle scadenze e del budget
 complessivo.
 
-\subsection{Quadro economico aggiornato}
+\subsection{Quadro economico finale}
 
 \begin{table}[H]
 \centering
@@ -159,14 +167,21 @@ complessivo.
 \toprule
 \textbf{Voce} & \textbf{Importo} \\
 \midrule
-Budget iniziale preventivato  & 11.665{,}00~\euro \\
-Costo sostenuto finora        & 7.094{,}99~\euro \\
-Costo stimato per completare  & 4.570{,}00~\euro \\
+Budget iniziale preventivato   & 11.665{,}00~\euro \\
+Costo totale effettivamente sostenuto & 7.364{,}16~\euro \\
 \midrule
-\textbf{Nuovo totale stimato} & \textbf{11.664{,}99~\euro} \\
+\textbf{Risparmio finale}      & \textbf{4.300{,}90~\euro} \\
 \bottomrule
 \end{tabular}
-\caption{Quadro economico aggiornato del Preventivo a Finire dopo lo Sprint 20}
+\caption{Quadro economico finale del progetto, dopo lo Sprint 21}
 \end{table}
 
-Al termine dello Sprint 20 risultano sostenuti 7.094{,}99~\euro, pari a circa il 60{,}8\% del budget complessivo preventivato. Le risorse residue, pari a 4.570{,}00~\euro, sono ritenute sufficienti per completare le attività pianificate senza superare il costo massimo accettato in fase di candidatura.
+Al termine dello Sprint 21, ovvero lo sprint finale, risultano sostenuti 7.364{,}16~\euro, pari a circa il 63,1\% del budget complessivo preventivato.
+Questo quantitativo di budget rimanente è dato dal fatto che, all'inizio del progetto, il gruppo ha deciso di concentrare le ore sui 
+ruoli di analista e progettista. Nel corso del progetto il gruppo ha compreso che alcune task che sembravano appartenere a questi ruoli erano 
+più adatte al ruolo di amministratore il quale infatti risulta con un residuo negativo di -55 ore.
+Il preventivo quindi risulta avere un valore stimato molto più alto in quanto sia Analista che progettista sono ruoli dal costo orario di 25 euro 
+contro i 20 dell'amministratore. Il budget rimanente quindi è più alto di quanto sarebbe stato se la suddivisione dei ruoli fosse stata più accurata.
+Tale risparmio, per le ragioni discusse, non rappresenta capacità
+ inutilizzata rispetto ad attività pianificate e non svolte, ma l'esito di una calibrazione non ottimale del 
+ preventivo iniziale tra i ruoli di Analista/Progettista (sovrastimati) e Amministratore (sottostimato).
