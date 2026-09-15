@@ -185,3 +185,71 @@ contro i 20 dell'amministratore. Il budget rimanente quindi è più alto di quan
 Tale risparmio, per le ragioni discusse, non rappresenta capacità
  inutilizzata rispetto ad attività pianificate e non svolte, ma l'esito di una calibrazione non ottimale del 
  preventivo iniziale tra i ruoli di Analista/Progettista (sovrastimati) e Amministratore (sottostimato).
+
+\textit{Nota sulla riconciliazione dei totali}: il risparmio calcolato come
+differenza tra budget iniziale e costo sostenuto (11.665{,}00~\euro~$-$~7.364{,}16~\euro~$=$~4.300{,}84~\euro)
+e quello calcolato come somma dei risparmi per ruolo (4.300{,}90~\euro, Sezione~\ref{sec:paf})
+coincidono a meno di 0{,}06~\euro, uno scarto dovuto al normale arrotondamento
+a due cifre decimali applicato in modo indipendente ai 21 consuntivi di
+sprint e alla tabella dei risparmi per ruolo, e privo di rilevanza pratica.
+
+\subsection{Rettifica a seguito della revisione del metodo di rendicontazione}
+\label{sec:paf-rettifica}
+
+Le tabelle precedenti riportano i valori così come consuntivati al termine
+dello Sprint 21. A seguito della revisione del metodo di rendicontazione
+condotta dopo il colloquio di revisione del 2026-09-15
+(Appendice~\ref{sec:appendice-rendicontazione}), sono state individuate
+149{,}08 ore di lavoro effettivamente svolto ma non rendicontato nel corso
+del progetto. Questa sezione riporta l'effetto di tale rettifica sul
+residuo per ruolo, senza modificare i valori originari riportati sopra, che
+restano quelli consuntivati e validati al momento della revisione.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Ruolo} & \textbf{Ore residue} & \textbf{Rettifica} & \textbf{Ore residue} \\
+ & \textbf{(Sprint 21)} & \textbf{(Appendice)} & \textbf{rettificate} \\
+\hline
+Responsabile   & 18{,}58 & 0{,}00 & 18{,}58 \\
+Amministratore & -55{,}00 & -32{,}33 & -87{,}33 \\
+Analista       & 54{,}67 & -34{,}00 & 20{,}67 \\
+Progettista    & 88{,}67 & -12{,}67 & 76{,}00 \\
+Programmatore  & 39{,}00 & -12{,}50 & 26{,}50 \\
+Verificatore   & 45{,}00 & -57{,}58 & -12{,}58 \\
+\hline
+\textbf{Totale} & \textbf{190{,}92} & \textbf{-149{,}08} & \textbf{41{,}84} \\
+\hline
+\end{tabular}
+\caption{Ore residue per ruolo, prima e dopo la rettifica}
+\label{tab:paf-rettifica-ore}
+\end{table}
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{lr}
+\toprule
+\textbf{Voce} & \textbf{Importo} \\
+\midrule
+Costo sostenuto (Sprint 21, consuntivato) & 7.364{,}16~\euro \\
+Costo aggiuntivo da rettifica (149{,}08 ore, Appendice) & 2.864{,}58~\euro \\
+\textbf{Costo sostenuto rettificato} & \textbf{10.228{,}74~\euro} \\
+\midrule
+Budget iniziale preventivato & 11.665{,}00~\euro \\
+\textbf{Risparmio rettificato} & \textbf{1.436{,}26~\euro} \\
+\bottomrule
+\end{tabular}
+\caption{Quadro economico rettificato}
+\label{tab:paf-rettifica-costo}
+\end{table}
+
+Il costo sostenuto rettificato (10.228{,}74~\euro, pari a circa l'87{,}7\% del
+budget) resta comunque entro il budget complessivo preventivato: il
+risparmio si riduce da 4.300{,}90~\euro a 1.436{,}26~\euro, ma non diventa
+negativo. La rettifica non altera pertanto la conclusione già raggiunta in
+Sezione~\ref{sec:paf} --- il progetto si chiude entro il vincolo economico
+di candidatura --- ma ne riduce il margine, ed è riportata qui a fini di
+piena trasparenza sul lavoro complessivo effettivamente svolto dal gruppo.
